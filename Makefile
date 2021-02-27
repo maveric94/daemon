@@ -1,4 +1,4 @@
-all: rebuild copy_plist
+all: rebuild copy_plist start
 	
 rebuild:
 	g++ main.cpp -o /usr/local/libexec/dummy
